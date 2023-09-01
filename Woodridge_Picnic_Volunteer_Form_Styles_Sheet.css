@@ -1,0 +1,90 @@
+body {
+    background-image: url('https://img.freepik.com/free-vector/copy-space-spring-floral-background-blue-sky_52683-55621.jpg?w=1380&t=st=1685047947~exp=1685048547~hmac=8fee241db30378cb567f2cf7013209f6d7358b1a6237fe3432f38c5be8ec99f1');
+  }
+  h1 {
+    text-align: center;
+    font-family: helvetica;
+    font-size: 36px;
+  }
+  p {
+    text-align: center;
+    font-family: helvetica;
+    font-size: 12px;
+  }
+  form {
+    text-align: center;
+    font-family: helvetica;
+  }
+  fieldset {
+    border: none;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  h5 {
+    font-size: 12px;
+  }
+  label {
+    font-size: 12px;
+  }
+  input {
+    font-size: 12px;
+    background: 0%;
+    border-color: #E6E6FA;
+  }
+  .contact-label {
+    margin-right: 60px;
+  }
+  select {
+    background: 0%;
+    border-color: #E6E6FA;
+    text-align: center;
+  }
+  input[type=radio] {
+      width: unset;
+      margin: 0 0 0.25em 0;
+      vertical-align: middle;
+  }
+  .bring-food {
+    margin: 2.8em
+  }
+  input[type=checkbox] {
+      width: unset;
+      margin: 0 0.35em 0.25em 0;
+      vertical-align: middle;
+  }
+  .misc-food {
+    display: block;
+    margin-top: 25px;
+  }
+  .mac-cheese {
+    margin-right: 100
+  }
+  .salad {
+    margin-right: 0
+  }
+  .cookies {
+    margin-left: 150
+  }
+  .date-time {
+    margin-top: -15px;
+  }
+  .date {
+    margin-top: -15px;
+  }
+  .time {
+    margin-top: -15px;
+  }
+  .availability {
+    margin-top: -5px;
+  }
+  textarea {
+    margin-top: -20px;
+    text-align: center;
+    background: 0%;
+    border-color: #E6E6FA;
+  }
+  input[type=submit] {
+    width: 500px;
+    font-size: 18px;
+  }
