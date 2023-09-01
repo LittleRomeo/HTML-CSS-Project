@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Woodridge Picnic Volunteer Form</title>
+    <link rel="stylesheet" href="Woodridge-Picnic-Volunteer-Form-Styles-Sheet.css">
+  </head>
+  <body>
+    <h1 id="title">Woodridge May Picnic Volunteer Form</h1>
+    <p id="description" name="description">Please provide your contact information, what dishes you may want to bring, and let us know when you'll be arriving so we can know when to expect you!!!! P.S. if you would like to help setup or cook we will need you to show up early. Please see Carl Maddison for more details.
+    <form id="survey-form">
+      <fieldset id="section-area" name="section-area">
+        <h3 id="section-title" name="contact-information">Contact Information:</h3>
+        <label for="name" id="name-label" class="contact-label">Name: <input id="name" name="name" type="text" placeholder="John Doe" value="" required /></label>
+        <label for="email" id="email-label" class="contact-label">Email: <input id="email" name="email" type="email" placeholder="email" value="" required /></label>
+        <label for="number" id="number-label" class="contact-label">Phone #: <input id="number" name="number" type="number" min="1" max="9999999999" placeholder="999-999-9999" value="" required /></label>
+      </fieldset>
+      <fieldset id="section-area" name="section-area">
+        <h3 id="section-title" name="activities">Activity You Want To Volunteer For:</h3>
+        <select id="dropdown">
+          <option value="select one">(Select one)</option>
+          <option value="1">Setup</option>
+          <option value="2">Cooking</option>
+          <option value="3">Hosting/Busboy</option>
+          <option value="4">Game Setups</option>
+          <option value="5">Cleanup</option>
+        </select>
+      </fieldset>
+      <fieldset id="section-area" name="section-area">
+        <h3 id="section-title" name="Food-to-bring">What Food Do You Want To Bring:</h3>
+        <h5>Will you be bringing food?</h5>
+        <label for="yes-food" id="food-label" class="bring-food"><input id="yes-food" type="radio" name="food" value="yes" class="inline" required/>Yes</label>
+        <label for="no-food" id="food-label" class="bring-food"><input id="no-food" type="radio" name="food" value="no" required/>No</label>
+        <h5>(If you plan on bringing food) What dish(es) do you plan on bringing? (keep in mind we are grilling burgers and hotdogs!)</h5>
+        <label for="mac-cheese" id="mac-cheese" class="mac-cheese">
+          <input id="mac-cheese" type="checkbox" name="mac-cheese" value="mac-cheese" />Mac and Cheese
+        </label>
+       <label for="salad" id="salad">
+          <input id="salad" type="checkbox" name="salad" value="salad" class="cookies"/>Salad
+        </label>
+       <label for="cookies" id="cookies" class="cookies">
+          <input id="cookies" type="checkbox" name="cookies" value="cookies"/>Cookies
+        </label>
+       <label for="other-food" id="other-food" class="misc-food">
+          <input id="other-food" type="checkbox" name="other-food" value="other-food"/>Other:
+          <input id="misc-food" type="text" name="misc-food">
+        </label>        
+      </fieldset>
+      <fieldset>
+        <h3 id="section-title" name="schedule">Schedule and Availability:</h3>
+        <h5 class="date-time">Date and Time:</h5>
+        <h5 class="date">05/25/2023</h5>
+        <h5 class="time">10am - 4pm</h5>
+        <h5 class="availability">Let us know below whether you will be there the whole time or if you will be arriving late/leaving early:</h5>
+        <textarea id="availabilty" name="availability" rows="4" cols="100" placeholder="I will be there the whole time." required /></textarea>
+      </fieldset>
+      <input id="submit" type="Submit" value="Submit" />
+    </form>
+  </body>
+</html>
